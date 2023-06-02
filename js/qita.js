@@ -65,7 +65,7 @@ $(function(){
 		$(this).parent("li").parent(".zf-tou-lb").parent(".zf-tou").parent(".zfye").siblings(".zf-ts").html("<h3>老板都点了 不会就看看而已吧 不要让作者寒心啊 （T_T）</h3>")
 		$(this).parent("li").parent(".zf-tou-lb").parent(".zf-tou").siblings(".zf-ewm-xs").children("img").attr("src","../img/qita/qq-skm.png");
 		$(this).parent("li").parent(".zf-tou-lb").parent(".zf-tou").siblings(".zf-wz").children("img").attr("src","../img/qita/xxlb.gif");
-		$(this).parent("li").siblings("li").children(".zf-tb-wx").attr("src","../img/qita/sl-zfb.png")
+		$(this).parent("li").siblings("li").children(".zf-tb-zfb").attr("src","../img/qita/sl-zfb.png")
 		$(this).parent("li").siblings("li").children(".zf-tb-wx").attr("src","../img/WeiXing.png")
 	});
 	//点击wx图标时
@@ -74,7 +74,7 @@ $(function(){
 		$(this).parent("li").parent(".zf-tou-lb").parent(".zf-tou").siblings(".zf-ewm-xs").children("img").attr("src","../img/qita/wx-skm.png");
 		$(this).parent("li").parent(".zf-tou-lb").parent(".zf-tou").siblings(".zf-wz").children("img").attr("src","../img/qita/xxlb.gif");
 		$(this).parent("li").siblings("li").children(".zf-tb-qq").attr("src","../img/QQ.png")
-		$(this).parent("li").siblings("li").children(".zf-tb-wx").attr("src","../img/qita/sl-zfb.png")
+		$(this).parent("li").siblings("li").children(".zf-tb-zfb").attr("src","../img/qita/sl-zfb.png")
 	});
 	//点击zfb图标时
 	$(".zf-tb-zfb").click(function(){
