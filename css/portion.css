@@ -46,6 +46,7 @@
 .jj-obox{
 	width: 80%;
 	margin: 0 auto;
+	padding-bottom: 30px;
 }
 .zzz-jj-main{
 	text-align: center;
@@ -57,24 +58,24 @@
 	color: #626262;
 }
 .zzz-nei-jj{
+	height: 10%;
 	margin-top: 30px;
 	display: flex;
 	background-color: rgba(227,227,227,0.1);
 	padding: 0 5px;
 }
 .jj-img-box{
-	width: 150px;
-	height: 210px;
+	width: 16%;
+	height: 10%;
 	overflow: hidden;
 	margin: 20px 50px;
 }
 .jj-img{
-	width: 150px;
-	height: 210px;
-	background: url(../img/geren/YAO.jpg) no-repeat 0 0 /100% 100%;
+	width: 100%;
+	height: 100%;
 }
 .jj-neir-box{
-	width: 73%;
+	width: 77%;
 	margin: 20px 0 20px 20px;
 	color: #545454;
 }
@@ -140,6 +141,8 @@
 	width: 98%;
 	margin: 20px 0 0 20px;
 }
+
+
 /*----------捐赠页----------*/
 .sanlian-box{
 	width: 90%;
