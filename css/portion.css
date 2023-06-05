@@ -71,7 +71,7 @@
 .jj-img{
 	width: 150px;
 	height: 210px;
-	background: url(../img/geren/YAO.jpg) no-repeat 0 0 /100% 100%;
+	background: url(../img/geren/YAo.jpg) no-repeat 0 0 /100% 100%;
 }
 .jj-neir-box{
 	width: 73%;
@@ -83,6 +83,21 @@
 	background: rgb(237,237,237);
 	border-left: solid 5px #353535;
 	border-bottom: solid 1px #545454;
+	transition: all 1s;
+}
+.zzz-nei-jj:hover .jj-biaoti{
+	background-color: #00ffff;
+	color: #0055ff;
+	border-left: solid 5px #1129af;
+}
+.zzz-nei-jj:hover li{
+	color: #ad74ce;
+}
+.zzz-nei-jj:hover .jl-jybj-tou{
+	color: #8f8f8f;
+}
+.zzz-nei-jj:hover .jj-gerpj span{
+	color: #0055ff;
 }
 .jj-biaoti>h4 ,.jj-biaoti>span{
 	margin-left: 10px;
@@ -94,9 +109,11 @@
 }
 .jj-neir-grxx li{
 	line-height: 36px;
+	transition: all 1s;
 }
 .jj-grr li{
 	width: 220px;
+	transition: all 1s;
 }
 .jj-kec li{
 	width: 180px;
@@ -104,11 +121,17 @@
 }
 .jj-gerpj{
 	margin-top: 20px;
-	
 }
-.jj-gerpj >span ,.jj-gerpj>p{
+.jl-jybj-tou{
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	transition:all 1s;
+}
+.jj-gerpj span ,.jj-gerpj p{
 	line-height: 36px;
 	color: #545454;
+	transition: all 1s;
 }
 #lian-h{
 	width: 100%;
@@ -117,7 +140,6 @@
 	width: 98%;
 	margin: 20px 0 0 20px;
 }
-
 /*----------捐赠页----------*/
 .sanlian-box{
 	width: 90%;
