@@ -65,18 +65,18 @@
 	padding: 0 5px;
 }
 .jj-img-box{
-	width: 16%;
+	width: 12%;
 	height: 10%;
 	overflow: hidden;
-	margin: 20px 50px;
+	margin: 40px;
 }
 .jj-img{
 	width: 100%;
 	height: 100%;
 }
 .jj-neir-box{
-	width: 77%;
-	margin: 20px 0 20px 20px;
+	width: 85%;
+	margin: 20px 0;
 	color: #545454;
 }
 .jj-biaoti{
@@ -107,14 +107,18 @@
 	margin-top: 15px;
 	display: flex;
 	flex-wrap: wrap;
+	padding-bottom: 20px;
 }
 .jj-neir-grxx li{
 	line-height: 36px;
 	transition: all 1s;
 }
-.jj-grr li{
-	width: 220px;
+.jj-grr>ul>li{
+	width: 250px;
 	transition: all 1s;
+}
+#jj-grr-ts{
+	width: 460px;
 }
 .jj-kec li{
 	width: 180px;
@@ -124,10 +128,13 @@
 	margin-top: 20px;
 }
 .jl-jybj-tou{
-	margin-top: 10px;
+	margin: 10px 10px 0 0;
 	display: flex;
 	justify-content: space-between;
 	transition:all 1s;
+}
+.jj-neir-grxx ol{
+	margin: 0 20px;
 }
 .jj-gerpj span ,.jj-gerpj p{
 	line-height: 36px;
@@ -136,6 +143,10 @@
 }
 #lian-h{
 	width: 100%;
+}
+#lian-h-hg{
+	width: 100%;
+	line-height: 23px;
 }
 .jj-neir-yu{
 	width: 98%;
